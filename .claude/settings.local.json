@@ -3,7 +3,19 @@
     "allow": [
       "Bash(git fetch --all --prune)",
       "Bash(.specify/scripts/powershell/create-new-feature.ps1 -Json \"/sp.specify\n\nModule: Module 1 – The Robotic Nervous System \\(ROS 2\\)\n\nAudience:\nAI students with basic Python knowledge entering Physical AI and Humanoid Robotics.\n\nGoal:\nTeach ROS 2 as the middleware connecting AI agents to humanoid robot control and structure.\n\nChapters \\(Docusaurus\\):\n\n1. ROS 2 Fundamentals\n- Role of ROS 2 in Physical AI\n- Nodes, topics, services, actions\n- ROS 2 as a robotic nervous system\n\n2. Python Control with rclpy\n- ROS 2 Python client \\(rclpy\\)\n- Creating nodes, publishers, subscribers\n- Bridging AI agents to robot controllers\n\n3. Humanoid Modeling with URDF\n- URDF purpose and structure\n- Links, joints, frames\n- Connecting URDF to ROS 2 and simulators\n\nSuccess criteria:\n- Student understands ROS 2 communication model\n- Student can explain Python-to-robot control flow\n- Student understands humanoid structure via URDF\n\nConstraints:\n- Docusaurus Markdown only\n- Technical, beginner-friendly\n- No simulation or advanced robotics topics\" -Json -Number 1 -ShortName \"ros2-educational-module\" \"Module 1 – The Robotic Nervous System \\(ROS 2\\)\")",
-      "Bash(.specify/scripts/powershell/setup-plan.ps1 -Json)"
+      "Bash(.specify/scripts/powershell/setup-plan.ps1 -Json)",
+      "Bash(pwsh -ExecutionPolicy Bypass -File \".specify/scripts/powershell/setup-plan.ps1\" -Json)",
+      "Bash(pwsh -ExecutionPolicy Bypass -File \".specify/scripts/powershell/check-prerequisites.ps1\" -Json)",
+      "Bash(tree . -I \"node_modules|*.git*\")",
+      "Bash(find . -name \"*.md\" -exec grep -l \"TODO\\\\|FIXME\\\\|HACK\\\\|XXX\" {} ;)",
+      "Bash(del \"D:\\\\humaira osama coding\\\\code\\\\quater_04\\\\hakathon_1_book\\\\specs\\\\1-ros2-educational-module\\\\tasks.md\")",
+      "Bash(pwsh -ExecutionPolicy Bypass -File \".specify/scripts/powershell/check-prerequisites.ps1\" -Json -RequireTasks -IncludeTasks)",
+      "Bash(git rev-parse --git-dir)",
+      "Bash(npx create-docusaurus@latest frontend_book classic --typescript=false --package-manager npm)",
+      "Bash(npx create-docusaurus@latest docs classic --skip-install)",
+      "Bash(powershell -Command \".specify/scripts/powershell/check-prerequisites.ps1 -Json -RequireTasks -IncludeTasks\")",
+      "Bash(npx create-docusaurus@latest frontend_book classic --typescript)",
+      "Bash(npm run start -- --port 3001)"
     ]
   }
 }

@@ -1,6 +1,10 @@
-# Specification Quality Checklist: ROS 2 Educational Module
+# DEPRECATED: Specification Quality Checklist: ROS 2 Educational Module
 
-**Purpose**: Validate specification completeness and quality before proceeding to planning
+**NOTICE**: This file is deprecated and no longer maintained as of 2026-01-10
+**Replacement**: Requirements are now managed in `spec.md` and `tasks-hackathon.md`
+**Reason**: Consolidated into comprehensive specification and task files for better maintainability
+
+**Original Purpose**: Validate specification completeness and quality before proceeding to planning
 **Created**: 2025-12-26
 **Feature**: [Link to spec.md](specs/1-ros2-educational-module/spec.md)
 
