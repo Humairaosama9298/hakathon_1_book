@@ -15,10 +15,10 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://Humairaosama9298.github.io', // TODO: Update with actual GitHub username and repo name for deployment
+  url: 'https://hakathon-1-book.vercel.app/', // TODO: Update with actual GitHub username and repo name for deployment
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/hackathon-physical-ai-humanoid-robotics/', // TODO: Update with actual repo name for GitHub Pages
+  baseUrl: '/', // TODO: Update with actual repo name for GitHub Pages
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
