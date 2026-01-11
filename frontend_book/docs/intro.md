@@ -49,4 +49,4 @@ Our approach emphasizes both theoretical understanding and practical application
 
 Begin with Module 1 to establish a strong foundation in ROS 2 concepts. Each module contains detailed explanations, code examples, and exercises to help you master the material.
 
-Ready to begin your journey into Physical AI and Humanoid Robotics? Start with [Module 1: The Robotic Nervous System (ROS 2)](/docs/module-1-ros2-fundamentals).
+Ready to begin your journey into Physical AI and Humanoid Robotics? Start with [Module 1: The Robotic Nervous System (ROS 2)](/module-1-ros2-fundamentals).

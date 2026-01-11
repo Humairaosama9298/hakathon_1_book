@@ -15,7 +15,8 @@
       "Bash(npx create-docusaurus@latest docs classic --skip-install)",
       "Bash(powershell -Command \".specify/scripts/powershell/check-prerequisites.ps1 -Json -RequireTasks -IncludeTasks\")",
       "Bash(npx create-docusaurus@latest frontend_book classic --typescript)",
-      "Bash(npm run start -- --port 3001)"
+      "Bash(npm run start -- --port 3001)",
+      "Bash(npm run build)"
     ]
   }
 }
